@@ -17,10 +17,13 @@ namespace Lab9BD
     public partial class Form1 : Form
     {
         private List<string> listSqlCommands = new List<string>();
+        private List<Sympthoms> sympthomsList =  new List<Sympthoms>();
         private string Connect = ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
+        private DataTable table;
         public Form1()
         {
             InitializeComponent();
+            table = SimpleSelect.DisplaySympthoms(ref dataGridView1);
         }
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -105,20 +108,7 @@ namespace Lab9BD
 
         private void button4_Click(object sender, EventArgs e)
         {
-            try
-            {
-                StreamWriter sw = new StreamWriter("E:\\list.txt");
-                foreach (var item in listSqlCommands)
-                {
-                    sw.WriteLine(item);
-                    ListingLable.Text = ListingLable.Text + "\n" + item;
-
-                }
-                sw.Close();
-            }
-            catch (Exception ex) {
-                ListingLable.Text = ex.Message;
-            }
+           
         }
 
         private void DeleteTable_Click(object sender, EventArgs e) => DeleteTables(textBox1.Text, TableCreateBox.Text);
@@ -126,5 +116,35 @@ namespace Lab9BD
         private void CreateTable_Click(object sender, EventArgs e) => CreateTables(textBox1.Text, TableCreateBox.Text);
 
         private void button5_Click(object sender, EventArgs e) => Add_FOREIGNKEY(textBox1.Text, NameBox.Text, ForeignBox.Text);
+
+        private void tabControl3_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AddSympthom_Click(object sender, EventArgs e)
+        {
+            InsertMethods.InsertSympthoms(SympthomBox.Text);
+            Sympthoms sympt = new Sympthoms(SympthomBox.Text);
+            sympthomsList.Add(sympt);
+            int i = 0;
+            foreach(Sympthoms item in sympthomsList)
+            {
+                //dataGridView1.Rows.Add(item.Sympthoms_id, item.Sympthoms_name)
+            }
+            //dataGridView1.DataSource = sympthomsList;
+            SimpleSelect.DisplaySympthoms(ref dataGridView1);
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+        private void dataGridView1_RowHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            SympthomBox.Text = dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString();
+
+        }
     }
 }
