@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Lab9BD.Properties.Disasie">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQIAAAAAACAAAABACAAAABUAAAAAAAAAAACAAIE=</HashCode>
+      <FileName>Disasie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab9BD.Properties.Doctor">
+    <Position X="10.5" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAABAAAAFAAQAAAAEAMAAAEQAAAA=</HashCode>
+      <FileName>Doctor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab9BD.Inspection">
+    <Position X="12.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAIAAQAiABBAAAAAEAACIA=</HashCode>
+      <FileName>Inspection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab9BD.Medicine">
+    <Position X="8.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAACIAAAAAgAAAAAYAAAAABACBAAAAAAA=</HashCode>
+      <FileName>Medicine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab9BD.Patient">
+    <Position X="14.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAQBCACABIAAAAAAASBACBAAAAAAAAEAAA=</HashCode>
+      <FileName>Patient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab9BD.ReportService">
+    <Position X="16.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAGAAAAAAAAAAAAQAAAAAAAAAAgQAAAA=</HashCode>
+      <FileName>ReportService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab9BD.Sympthoms">
+    <Position X="7" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAACAAAAQAAAIABAQAABAABAAAAAAAAAA=</HashCode>
+      <FileName>Sympthoms.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab9BD.Form1">
+    <Position X="3" Y="3.25" Width="1.5" />
+    <Members>
+      <Method Name="Add_FOREIGNKEY" Hidden="true" />
+      <Field Name="AddDisasieButton" Hidden="true" />
+      <Field Name="AddInspection" Hidden="true" />
+      <Field Name="AddMedicine" Hidden="true" />
+      <Field Name="AddSympthom" Hidden="true" />
+      <Field Name="button1" Hidden="true" />
+      <Method Name="button1_Click" Hidden="true" />
+      <Field Name="button10" Hidden="true" />
+      <Method Name="button10_Click" Hidden="true" />
+      <Field Name="button11" Hidden="true" />
+      <Method Name="button11_Click" Hidden="true" />
+      <Field Name="button12" Hidden="true" />
+      <Method Name="button12_Click" Hidden="true" />
+      <Field Name="button13" Hidden="true" />
+      <Method Name="button13_Click" Hidden="true" />
+      <Field Name="button14" Hidden="true" />
+      <Method Name="button14_Click" Hidden="true" />
+      <Field Name="button2" Hidden="true" />
+      <Method Name="button2_Click" Hidden="true" />
+      <Field Name="button3" Hidden="true" />
+      <Method Name="button3_Click" Hidden="true" />
+      <Field Name="button4" Hidden="true" />
+      <Method Name="button4_Click" Hidden="true" />
+      <Field Name="button5" Hidden="true" />
+      <Method Name="button5_Click" Hidden="true" />
+      <Field Name="button6" Hidden="true" />
+      <Method Name="button6_Click" Hidden="true" />
+      <Field Name="button7" Hidden="true" />
+      <Method Name="button7_Click" Hidden="true" />
+      <Field Name="button8" Hidden="true" />
+      <Method Name="button8_Click" Hidden="true" />
+      <Field Name="button9" Hidden="true" />
+      <Method Name="button9_Click" Hidden="true" />
+      <Field Name="ChangeDisasieButton" Hidden="true" />
+      <Method Name="ChangeDisasieButton_Click" Hidden="true" />
+      <Field Name="ChangeInspectionButton" Hidden="true" />
+      <Method Name="ChangeInspectionButton_Click" Hidden="true" />
+      <Field Name="ChangeMedButton" Hidden="true" />
+      <Method Name="ChangeMedButton_Click" Hidden="true" />
+      <Field Name="ColumnBox" Hidden="true" />
+      <Field Name="comboBox1" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="createDatabase" Hidden="true" />
+      <Field Name="CreateTable" Hidden="true" />
+      <Method Name="CreateTable_Click" Hidden="true" />
+      <Method Name="CreateTables" Hidden="true" />
+      <Field Name="dataGridView1" Hidden="true" />
+      <Method Name="dataGridView1_CellContentClick" Hidden="true" />
+      <Method Name="dataGridView1_RowHeaderMouseClick" Hidden="true" />
+      <Field Name="dataGridView2" Hidden="true" />
+      <Method Name="dataGridView2_RowHeaderMouseClick" Hidden="true" />
+      <Method Name="DeleteColumn" Hidden="true" />
+      <Field Name="DeleteDisasieButton" Hidden="true" />
+      <Method Name="DeleteDisasieButton_Click" Hidden="true" />
+      <Field Name="DeleteInspectionButton" Hidden="true" />
+      <Method Name="DeleteInspectionButton_Click" Hidden="true" />
+      <Field Name="DeleteMedButton" Hidden="true" />
+      <Method Name="DeleteMedButton_Click" Hidden="true" />
+      <Field Name="DeleteTable" Hidden="true" />
+      <Method Name="DeleteTable_Click" Hidden="true" />
+      <Method Name="DeleteTables" Hidden="true" />
+      <Field Name="DisasieDataGrid" Hidden="true" />
+      <Method Name="DisasieDataGrid_RowHeaderMouseClick" Hidden="true" />
+      <Field Name="DisasieNameBox" Hidden="true" />
+      <Field Name="DisasieNameLable" Hidden="true" />
+      <Field Name="DisasieRecomendationBox" Hidden="true" />
+      <Field Name="DisasieSympthomBox" Hidden="true" />
+      <Field Name="DisassieMedBox" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="DocFamilylab10" Hidden="true" />
+      <Field Name="DoctorDataGridView" Hidden="true" />
+      <Method Name="DoctorDataGridView_RowHeaderMouseClick" Hidden="true" />
+      <Field Name="DoctorFathBox" Hidden="true" />
+      <Field Name="DoctorFirstNBox" Hidden="true" />
+      <Field Name="DoctorLNBox" Hidden="true" />
+      <Field Name="DoctorPlaceBox" Hidden="true" />
+      <Field Name="DoseLable" Hidden="true" />
+      <Field Name="ForeignBox" Hidden="true" />
+      <Method Name="Form1" Hidden="true" />
+      <Method Name="Form1_Load" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="InspectionDataGrid" Hidden="true" />
+      <Method Name="InspectionDataGrid_RowHeaderMouseClick" Hidden="true" />
+      <Field Name="InspectionDateBox" Hidden="true" />
+      <Field Name="InspectionDisasieBox" Hidden="true" />
+      <Field Name="InspectionDoctorBox" Hidden="true" />
+      <Field Name="InspectionPatientBox" Hidden="true" />
+      <Field Name="lab10Grid" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label10" Hidden="true" />
+      <Field Name="label11" Hidden="true" />
+      <Field Name="label12" Hidden="true" />
+      <Field Name="label13" Hidden="true" />
+      <Field Name="label14" Hidden="true" />
+      <Field Name="label15" Hidden="true" />
+      <Field Name="label16" Hidden="true" />
+      <Field Name="label17" Hidden="true" />
+      <Field Name="label18" Hidden="true" />
+      <Field Name="label19" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label20" Hidden="true" />
+      <Field Name="label21" Hidden="true" />
+      <Field Name="label22" Hidden="true" />
+      <Field Name="label23" Hidden="true" />
+      <Field Name="label24" Hidden="true" />
+      <Field Name="label25" Hidden="true" />
+      <Field Name="label26" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Field Name="label6" Hidden="true" />
+      <Field Name="label7" Hidden="true" />
+      <Field Name="label8" Hidden="true" />
+      <Method Name="label8_Click" Hidden="true" />
+      <Field Name="label9" Hidden="true" />
+      <Field Name="ListingLable" Hidden="true" />
+      <Field Name="listSqlCommands" Hidden="true" />
+      <Field Name="MedecineNameBox" Hidden="true" />
+      <Field Name="MedicineDoseBox" Hidden="true" />
+      <Field Name="MedicineNameLable" Hidden="true" />
+      <Field Name="NameBox" Hidden="true" />
+      <Field Name="PatientAddButton" Hidden="true" />
+      <Method Name="PatientAddButton_Click" Hidden="true" />
+      <Field Name="PatientBirthDayBox" Hidden="true" />
+      <Field Name="PatientChangeButton" Hidden="true" />
+      <Method Name="PatientChangeButton_Click" Hidden="true" />
+      <Field Name="PatientDataGrid" Hidden="true" />
+      <Method Name="PatientDataGrid_RowHeaderMouseClick" Hidden="true" />
+      <Field Name="PatientDeleteButton" Hidden="true" />
+      <Method Name="PatientDeleteButton_Click" Hidden="true" />
+      <Field Name="PatientFatherNameBox" Hidden="true" />
+      <Field Name="PatientFristNameBox" Hidden="true" />
+      <Field Name="PatientLastNameBox" Hidden="true" />
+      <Field Name="PatientPassportBox" Hidden="true" />
+      <Field Name="PatientPoliceBox" Hidden="true" />
+      <Field Name="PatientSexBox" Hidden="true" />
+      <Field Name="SympthomBox" Hidden="true" />
+      <Field Name="tabControl1" Hidden="true" />
+      <Field Name="tabControl2" Hidden="true" />
+      <Field Name="tabControl3" Hidden="true" />
+      <Method Name="tabControl3_SelectedIndexChanged" Hidden="true" />
+      <Field Name="table" Hidden="true" />
+      <Field Name="TableCreateBox" Hidden="true" />
+      <Field Name="tabPage1" Hidden="true" />
+      <Field Name="tabPage10" Hidden="true" />
+      <Field Name="tabPage11" Hidden="true" />
+      <Field Name="tabPage12" Hidden="true" />
+      <Method Name="tabPage12_Click" Hidden="true" />
+      <Field Name="tabPage13" Hidden="true" />
+      <Field Name="tabPage2" Hidden="true" />
+      <Field Name="tabPage3" Hidden="true" />
+      <Field Name="tabPage4" Hidden="true" />
+      <Field Name="tabPage5" Hidden="true" />
+      <Field Name="tabPage6" Hidden="true" />
+      <Field Name="tabPage7" Hidden="true" />
+      <Field Name="tabPage8" Hidden="true" />
+      <Field Name="tabPage9" Hidden="true" />
+      <Field Name="textBox1" Hidden="true" />
+    </Members>
+    <AssociationLine Name="ReportService" Type="Lab9BD.ReportService" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.875" Y="3.25" />
+        <Point X="3.875" Y="2.875" />
+        <Point X="16.938" Y="2.875" />
+        <Point X="16.938" Y="3.25" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>/zSNSAaMAbpSwRJzJ5KgIsNnDN1734Az2/UfQgAF/DA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="disasieEdit" />
+      <Field Name="doctorEdit" />
+      <Field Name="inspectionEdit" />
+      <Field Name="medicineEdit" />
+      <Field Name="patientEdit" />
+      <Field Name="sympthomsEdit" />
+      <Property Name="ReportService" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

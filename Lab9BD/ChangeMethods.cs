@@ -16,7 +16,12 @@ namespace Lab9BD
         public static void ChangeSympthoms(int id, ref DataGridView table)
         {
             conn.Open();
-            SqlCommand cmd = new SqlCommand("")
+            SqlCommand cmd = new SqlCommand("");
+        }
+
+        public void Method()
+        {
+            throw new System.NotImplementedException();
         }
     }
 }
